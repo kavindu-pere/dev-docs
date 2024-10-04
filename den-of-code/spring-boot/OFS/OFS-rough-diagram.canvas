@@ -1,0 +1,17 @@
+{
+	"nodes":[
+		{"id":"01e195af10bc04b2","type":"text","text":"order-service","x":-480,"y":-200,"width":250,"height":60,"color":"3"},
+		{"id":"f20bd36f954ea7f9","type":"text","text":"catalog-service","x":-480,"y":-420,"width":250,"height":60,"color":"3"},
+		{"id":"7f5465e324c3d756","type":"text","text":"catalog-DB","x":-480,"y":-580,"width":250,"height":60,"color":"5"},
+		{"id":"3a1e731467f432de","type":"text","text":"orders-DB","x":-605,"y":-20,"width":250,"height":60,"color":"5"},
+		{"id":"f00865b9a730091f","x":-160,"y":-80,"width":250,"height":60,"color":"2","type":"text","text":"Message-Queue"},
+		{"id":"39a8e07b68af81e3","type":"text","text":"notification-service","x":160,"y":-200,"width":250,"height":60,"color":"3"}
+	],
+	"edges":[
+		{"id":"bce9907a83420e2c","fromNode":"01e195af10bc04b2","fromSide":"top","toNode":"f20bd36f954ea7f9","toSide":"bottom","fromEnd":"arrow"},
+		{"id":"b1884f87c0442ce5","fromNode":"f20bd36f954ea7f9","fromSide":"top","toNode":"7f5465e324c3d756","toSide":"bottom","toEnd":"none"},
+		{"id":"c23db5c5abfe760f","fromNode":"01e195af10bc04b2","fromSide":"bottom","toNode":"3a1e731467f432de","toSide":"top","toEnd":"none"},
+		{"id":"59e2d23732aaea80","fromNode":"01e195af10bc04b2","fromSide":"bottom","toNode":"f00865b9a730091f","toSide":"left"},
+		{"id":"f5e448276572a97a","fromNode":"39a8e07b68af81e3","fromSide":"bottom","toNode":"f00865b9a730091f","toSide":"right"}
+	]
+}
